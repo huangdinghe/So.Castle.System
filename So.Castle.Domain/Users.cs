@@ -11,7 +11,7 @@ namespace So.Castle.Domain
     /// <summary>
     /// 用户实体
     /// </summary
-    [ActiveRecord("Users")]
+    [ActiveRecord("users")]
     public class Users : EntityBase
     {
         /// <summary>

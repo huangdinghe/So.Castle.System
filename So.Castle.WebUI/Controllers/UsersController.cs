@@ -15,7 +15,19 @@ namespace So.Castle.WebUI.Controllers
         [HttpGet]
         public ActionResult Index()
         {
-            IList<Users> users= Container.Instance.Resolve<IUsersService>().GetAll();
+            IList<Users> users = Container.Instance.Resolve<IUsersService>().GetAll();
+            return View(users);
+        }
+
+        [HttpGet]
+        public ActionResult Create()
+        {
+            return View();
+        }
+        [HttpPost]
+        public ActionResult Create(Users users)
+        {
+            Container.Instance.Resolve<IUsersService>().Create(users);
             return View(users);
         }
     }

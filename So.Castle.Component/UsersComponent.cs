@@ -5,7 +5,7 @@ using So.Castle.Domain;
 using So.Castle.Manager;
 using So.Castle.Service;
 
-namespace ZDSoft.LMS.Component
+namespace So.Castle.Component
 {
     public class UsersComponent : BaseComponent<Users, UsersManager>, IUsersService
     {

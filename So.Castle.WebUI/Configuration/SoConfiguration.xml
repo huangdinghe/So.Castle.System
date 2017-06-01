@@ -1,4 +1,4 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <root>
-  <element Id="IUsersService" Service="So.Castle.Service.IUsersService, So.Castle.Service" Class="So.Castle.Component.UsersComponent, So.Castle.Component"></element>  
+  <element Id="IUsersService" Service="So.Castle.Service.IUsersService, So.Castle.Service" Class="So.Castle.Component.UsersComponent, So.Castle.Component"></element>
 </root>
