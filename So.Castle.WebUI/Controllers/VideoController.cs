@@ -17,5 +17,17 @@ namespace So.Castle.WebUI.Controllers
             IList<Video> video = Container.Instance.Resolve<IVideoService>().GetAll();
             return View(video);
         }
+
+        [HttpGet]
+        public ActionResult Create()
+        {
+            return View();
+        }
+        [HttpPost]
+        public ActionResult Create(Video video)
+        {
+            Container.Instance.Resolve<IVideoService>().Create(video);
+            return View(video);
+        }
     }
 }
