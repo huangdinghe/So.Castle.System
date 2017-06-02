@@ -1,0 +1,77 @@
+﻿@model IEnumerable<So.Castle.Domain.Video>
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <p>
+        @Html.ActionLink("Create New", "Create")
+    </p>
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.video_id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.video_name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.video_category)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.url)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.author)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.classification_id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.class_file_url)
+            </th>
+            <th></th>
+        </tr>
+    
+    @foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.video_id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.video_name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.video_category)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.url)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.author)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.classification_id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.class_file_url)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+            </td>
+        </tr>
+    }
+    
+    </table>
+</body>
+</html>

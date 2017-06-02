@@ -11,7 +11,9 @@ namespace So.Castle.Domain
     /// <summary>
     /// 分类表
     /// </summary>
-  public  class Classification : EntityBase
+
+    //[ActiveRecord("classification")]
+    public  class Classification : EntityBase
     {
         [Property("classification_id")]
         public int classification_id { get; set; }

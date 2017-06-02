@@ -12,7 +12,7 @@ namespace So.Castle.Domain
     /// 视频实体
     /// </summary>
 
-    [ActiveRecord("Video")]
+    [ActiveRecord("video")]
     public class Video : EntityBase
     {
         /// <summary>

@@ -11,6 +11,8 @@ namespace So.Castle.Domain
     /// <summary>
     /// 收藏表
     /// </summary>
+
+   // [ActiveRecord("collection")]
     public class Collection : EntityBase
     {
         /// <summary>

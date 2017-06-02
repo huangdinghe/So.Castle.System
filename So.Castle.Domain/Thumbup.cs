@@ -11,6 +11,8 @@ namespace So.Castle.Domain
     /// <summary>
     /// 点赞表
     /// </summary>
+    
+   // [ActiveRecord("thumbup")]
     public class Thumbup:EntityBase
     {
         /// <summary>
