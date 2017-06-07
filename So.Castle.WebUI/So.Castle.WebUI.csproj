@@ -241,6 +241,9 @@
     <Content Include="Views\Users\Create.cshtml" />
     <Content Include="Views\Video\Index.cshtml" />
     <Content Include="Views\Video\Create.cshtml" />
+    <Content Include="开发文档\03 项目设计\So设计说明书-模版.doc" />
+    <Content Include="开发文档\01 需求分析\SO需求分析说明书.docx" />
+    <Content Include="开发文档\03 项目设计\SO需求规格说明书.doc" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
