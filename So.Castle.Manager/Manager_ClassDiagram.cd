@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="So.Castle.Manager.ManagerBase&lt;T&gt;">
+    <Position X="3.75" Y="1.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAABAAAABgAAAAAAAAAAEIAEAAAgAAAAEAAQA=</HashCode>
+      <FileName>ManagerBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="So.Castle.Manager.UsersManager" Collapsed="true">
+    <Position X="1.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UsersManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="So.Castle.Manager.VideoManager" Collapsed="true">
+    <Position X="6.5" Y="2.75" Width="1.5" />
+    <InheritanceLine Type="So.Castle.Manager.ManagerBase&lt;T&gt;" FixedFromPoint="true">
+      <Path>
+        <Point X="5.75" Y="3.125" />
+        <Point X="6.5" Y="3.125" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>VideoManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>

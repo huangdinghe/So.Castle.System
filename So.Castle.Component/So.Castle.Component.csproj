@@ -102,5 +102,8 @@
       <Name>So.Castle.Service</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Component_ClassDiagram.cd" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

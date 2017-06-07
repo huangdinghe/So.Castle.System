@@ -94,5 +94,8 @@
     <Compile Include="Users.cs" />
     <Compile Include="Video.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Domain_ClassDiagram.cd" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
